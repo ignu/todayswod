@@ -17,7 +17,8 @@ defmodule Wod.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 0.13"}
+      {:httpoison, "~> 0.13"},
+      {:floki, "~> 0.18.0"}
     ]
   end
 end
